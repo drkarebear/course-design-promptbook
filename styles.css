@@ -1418,3 +1418,53 @@ section { padding-block: 72px; }
   .policy-feature-grid { grid-template-columns: 1fr; }
   .policy-hero { padding-block: 44px; }
 }
+
+/* COR Decoder */
+.step-page-0 {
+  background: linear-gradient(180deg, #eef7fb 0%, #f8fbfc 100%);
+}
+.decoder-shell {
+  max-width: 1120px;
+}
+.decoder-output-grid {
+  margin-bottom: 24px;
+}
+.decoder-note {
+  margin-top: 24px;
+}
+.decoder-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 22px;
+  align-items: center;
+  margin: 24px 0;
+}
+.decoder-embed-wrap {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+.decoder-embed {
+  display: block;
+  width: 100%;
+  height: 760px;
+  border: 0;
+  background: #fff;
+}
+.decoder-principle {
+  margin-top: 26px;
+}
+.decoder-principle h3 {
+  margin-top: 0;
+}
+@media (max-width: 700px) {
+  .decoder-embed {
+    height: 720px;
+  }
+  .decoder-actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
