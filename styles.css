@@ -687,3 +687,77 @@ section { padding-block: 72px; }
   .prompt-text { padding: 20px; }
   .choice-callout { flex-direction: column; }
 }
+
+/* Step 2 accent */
+.step-page-2 {
+  background: linear-gradient(180deg, #fff9ea 0%, #f7fafc 100%);
+}
+.step-page-2 .step-label {
+  color: #6b4a00;
+  background: #fff3c9;
+  border-color: #e2c96e;
+}
+.step-page-2 .step-purpose {
+  border-left-color: var(--gold);
+}
+.step-page-2 .mini-path li.done {
+  color: #385b38;
+}
+.step-page-2 .mini-path li.current {
+  background: #fff7dc;
+}
+.step-page-2 .mini-path li.current span {
+  background: var(--gold);
+  color: #fff;
+}
+
+/* Step 3 accent */
+.step-page-3 {
+  background: linear-gradient(180deg, #fbf1ec 0%, #f7fafc 100%);
+}
+.step-page-3 .step-label {
+  color: #743a25;
+  background: #f7e5dc;
+  border-color: #d9ad99;
+}
+.step-page-3 .step-purpose {
+  border-left-color: #9f4d2e;
+}
+.step-page-3 .mini-path li.current {
+  background: #faece5;
+}
+.step-page-3 .mini-path li.current span {
+  background: #8b462d;
+  color: #fff;
+}
+.prompt-badge-rust {
+  background: #faece5;
+  border-color: #d9ad99;
+  color: #743a25;
+}
+
+
+/* Step 4 accent */
+.step-page-4 {
+  background: linear-gradient(180deg, #f4effa 0%, #f7fafc 100%);
+}
+.step-page-4 .step-label {
+  color: #553d70;
+  background: #eee5f5;
+  border-color: #cdb9dd;
+}
+.step-page-4 .step-purpose {
+  border-left-color: var(--purple);
+}
+.step-page-4 .mini-path li.current {
+  background: #f0e9f5;
+}
+.step-page-4 .mini-path li.current span {
+  background: #674d80;
+  color: #fff;
+}
+.prompt-badge-purple {
+  background: #f0e9f5;
+  border-color: #cdb9dd;
+  color: #553d70;
+}
