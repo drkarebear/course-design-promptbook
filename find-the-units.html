@@ -55,7 +55,7 @@
           <h2 id="mini-path-title">Where you are</h2>
           <ol>
             <li class="done"><span>0</span> Understand the Course</li>
-            <li class="current"><span>1</span> Find the Units</li>
+            <li class="current" aria-current="step"><span>1</span> Find the Units</li>
             <li><span>2</span> Design the Destinations</li>
           </ol>
         </aside>
@@ -68,11 +68,11 @@
         <h2 id="why-title">Do not let the table of contents design the course for you.</h2>
         <p>Textbooks and OER are organized for publication. A course should be organized around the learning students need to do. AI can help you see possibilities quickly, but you should choose the structure before asking it to build anything.</p>
 
-        <div class="three-beat" aria-label="Find the Units process">
-          <div><span aria-hidden="true">✨</span><strong>Explore</strong><p>Generate three meaningfully different structures.</p></div>
-          <div><span aria-hidden="true">☝️</span><strong>Choose</strong><p>Select the one that best fits the course you want to teach.</p></div>
-          <div><span aria-hidden="true">🛠️</span><strong>Build</strong><p>Develop only the structure you actually chose.</p></div>
-        </div>
+        <ol class="three-beat" aria-label="Find the Units process">
+          <li><span aria-hidden="true">✨</span><strong>Explore</strong><p>Generate three meaningfully different structures.</p></li>
+          <li><span aria-hidden="true">☝️</span><strong>Choose</strong><p>Select the one that best fits the course you want to teach.</p></li>
+          <li><span aria-hidden="true">🛠️</span><strong>Build</strong><p>Develop only the structure you actually chose.</p></li>
+        </ol>
       </div>
     </section>
 
@@ -103,10 +103,10 @@
           <span class="prompt-badge">Explore first</span>
         </div>
 
-        <article class="prompt-card" aria-labelledby="prompt-one-label">
+        <article class="prompt-card" aria-labelledby="prompt-one-title">
           <div class="prompt-toolbar">
             <h3 id="prompt-one-label">Copy-and-paste prompt</h3>
-            <button class="copy-button" type="button" data-copy-target="prompt-one" data-status-target="status-one">Copy prompt</button>
+            <button class="copy-button" type="button" data-copy-target="prompt-one" data-status-target="status-one" aria-label="Copy Explore three possible course structures">Copy prompt</button>
           </div>
           <div class="prompt-text" id="prompt-one">
             <p>I am designing a college course using the attached Course Outline of Record and, when available, my course-specific alignment rubric and OER or textbook.</p>
@@ -154,10 +154,10 @@
           <span class="prompt-badge prompt-badge-gold">Check the choice</span>
         </div>
 
-        <article class="prompt-card" aria-labelledby="prompt-two-label">
+        <article class="prompt-card" aria-labelledby="prompt-two-title">
           <div class="prompt-toolbar">
             <h3 id="prompt-two-label">Copy-and-paste prompt</h3>
-            <button class="copy-button" type="button" data-copy-target="prompt-two" data-status-target="status-two">Copy prompt</button>
+            <button class="copy-button" type="button" data-copy-target="prompt-two" data-status-target="status-two" aria-label="Copy Stress-test the option you chose">Copy prompt</button>
           </div>
           <div class="prompt-text" id="prompt-two">
             <p>I want to develop Option [number or name].</p>
@@ -186,10 +186,10 @@
           <span class="prompt-badge prompt-badge-teal">Build the choice</span>
         </div>
 
-        <article class="prompt-card" aria-labelledby="prompt-three-label">
+        <article class="prompt-card" aria-labelledby="prompt-three-title">
           <div class="prompt-toolbar">
             <h3 id="prompt-three-label">Copy-and-paste prompt</h3>
-            <button class="copy-button" type="button" data-copy-target="prompt-three" data-status-target="status-three">Copy prompt</button>
+            <button class="copy-button" type="button" data-copy-target="prompt-three" data-status-target="status-three" aria-label="Copy Develop the chosen unit map">Copy prompt</button>
           </div>
           <div class="prompt-text" id="prompt-three">
             <p>Develop the selected structure into a clear 3–5 unit course map.</p>
