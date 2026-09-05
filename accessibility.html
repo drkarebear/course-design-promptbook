@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Accessibility approach and current accessibility features for Course Design Promptbook.">
+  <title>Accessibility | Course Design Promptbook</title>
+  <link rel="icon" type="image/png" href="favicon14.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="Course Design Promptbook home">
+        <img class="brand-mark" src="favicon14.png" alt="" width="46" height="46">
+        <span class="brand-text">
+          <strong>Course Design Promptbook</strong>
+          <span>for California Community College faculty</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="method.html">The Method</a>
+        <a href="all-prompts.html">All Prompts</a>
+        <a href="index.html#workflow">Workflow</a>
+        <a href="index.html#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="shell breadcrumb-wrap">
+      <nav aria-label="Breadcrumb">
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li aria-current="page">Accessibility</li>
+        </ol>
+      </nav>
+    </div>
+
+    <section class="policy-hero" aria-labelledby="page-title">
+      <div class="shell policy-hero-grid">
+        <div>
+          <p class="eyebrow">Accessibility</p>
+          <h1 id="page-title">Designed for access, not just appearance.</h1>
+          <p class="policy-lede">Course Design Promptbook is built with accessibility as part of the design process. The goal is to support WCAG 2.2 Level AA practices while keeping a dense course-design process readable and manageable.</p>
+        </div>
+        <aside class="policy-summary" aria-labelledby="access-short-title">
+          <p class="eyebrow">Built into the site</p>
+          <h2 id="access-short-title">What you should be able to expect</h2>
+          <ul class="check-list compact-list">
+            <li>Keyboard-accessible navigation and controls</li>
+            <li>Visible keyboard focus</li>
+            <li>Logical headings and landmarks</li>
+            <li>Text that reflows for smaller screens and zoom</li>
+            <li>Strong text and interface contrast</li>
+            <li>Meaning that does not depend on color alone</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="page-section" aria-labelledby="features-title">
+      <div class="shell narrow-shell">
+        <p class="eyebrow">Current accessibility features</p>
+        <h2 id="features-title">Accessibility is part of the shared site structure.</h2>
+        <div class="policy-feature-grid">
+          <article>
+            <h3>Structure and navigation</h3>
+            <p>Pages use semantic headings, main content landmarks, labeled navigation, breadcrumbs, descriptive links, and a skip link that lets keyboard users move directly to the main content.</p>
+          </article>
+          <article>
+            <h3>Keyboard use</h3>
+            <p>Links and buttons are keyboard reachable. Focus is shown with a high-visibility two-part focus indicator rather than relying on a subtle browser default.</p>
+          </article>
+          <article>
+            <h3>Color and visuals</h3>
+            <p>Color is paired with words, labels, numbers, or structure. Decorative icons and illustrations are hidden from assistive technology when they do not add information.</p>
+          </article>
+          <article>
+            <h3>Readable interaction</h3>
+            <p>Prompt text uses a constrained reading width, copy controls have specific accessible names, and copy confirmation is announced through a status message.</p>
+          </article>
+          <article>
+            <h3>Reflow and motion</h3>
+            <p>Layouts adapt to narrower screens rather than requiring a desktop-sized canvas. The shared stylesheet also respects reduced-motion preferences where motion behavior is present.</p>
+          </article>
+          <article>
+            <h3>Brain-friendly design</h3>
+            <p>Long design work is broken into small decisions, repeated page patterns, short sections, visible next steps, and quality checks so accessibility includes cognitive usability as well as technical structure.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section soft-section" aria-labelledby="standard-title">
+      <div class="shell narrow-shell">
+        <p class="eyebrow">Accessibility target</p>
+        <h2 id="standard-title">The target is WCAG 2.2 Level AA, not a self-certification.</h2>
+        <p>The site is being designed and reviewed against WCAG 2.2 Level AA practices. Automated checks and code review can catch many issues, but they do not prove that every page works perfectly with every browser, device, zoom level, or assistive technology combination.</p>
+        <p>Accessibility review is therefore treated as an ongoing design and testing process rather than a one-time badge.</p>
+      </div>
+    </section>
+
+    <section class="page-section" aria-labelledby="limits-title">
+      <div class="shell narrow-shell">
+        <p class="eyebrow">Important boundaries</p>
+        <h2 id="limits-title">What this page does not certify</h2>
+        <ul class="plain-list">
+          <li><strong>External AI tools:</strong> Course Design Promptbook cannot guarantee the accessibility of a third-party AI platform where you paste a prompt.</li>
+          <li><strong>Copied content:</strong> Content can lose structure when copied into another system, depending on that system's editor and paste behavior.</li>
+          <li><strong>Generated or downloaded documents:</strong> A document created by an AI service may require its own accessibility check before it is distributed to students or colleagues.</li>
+          <li><strong>Linked websites:</strong> External resources operate under their own accessibility practices.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="page-section soft-section" aria-labelledby="faculty-title">
+      <div class="shell narrow-shell">
+        <p class="eyebrow">When the prompts become course materials</p>
+        <h2 id="faculty-title">Accessibility still belongs in the course-design decision.</h2>
+        <p>The prompts can help faculty think about modality, cognitive load, and accessibility-conscious activity design, but AI output should not be assumed to be accessible simply because it was generated from an accessibility-aware prompt.</p>
+        <p>Before distributing new course materials, check the actual document, page, media, or activity in the system where students will use it. Follow your college's accessibility process and available support.</p>
+      </div>
+    </section>
+
+    <section class="page-section" aria-labelledby="feedback-title">
+      <div class="shell narrow-shell">
+        <p class="eyebrow">Accessibility feedback</p>
+        <h2 id="feedback-title">Barriers are useful information.</h2>
+        <p>If something on the site is difficult to navigate, read, operate, or understand, that is a design issue worth fixing. A direct project contact will be added with the full About page; until then, accessibility findings should be treated as part of the site's ongoing review rather than as proof that a user should simply work around the barrier.</p>
+        <p class="small-note"><strong>Last reviewed:</strong> September 5, 2026.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <strong>Course Design Promptbook</strong>
+        <p>Design backward. Learn forward.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="method.html">The Method</a>
+        <a href="all-prompts.html">All Prompts</a>
+        <a href="index.html#workflow">Workflow</a>
+        <a href="index.html#about">About</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="accessibility.html" aria-current="page">Accessibility</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
