@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Step 1 of the Course Design Promptbook: use AI to explore several meaningful ways to organize a course into 3–5 substantial learning arcs before choosing one to develop.">
+  <title>Find the Units | Course Design Promptbook</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="Course Design Promptbook home">
+        <span class="brand-mark" aria-hidden="true">CD</span>
+        <span class="brand-text">
+          <strong>Course Design Promptbook</strong>
+          <span>for California Community College faculty</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="index.html#method">The Method</a>
+        <a href="index.html#workflow">Workflow</a>
+        <a href="index.html#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="shell breadcrumb-wrap">
+      <nav aria-label="Breadcrumb">
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#workflow">Course Design Workflow</a></li>
+          <li aria-current="page">Find the Units</li>
+        </ol>
+      </nav>
+    </div>
+
+    <section class="step-hero step-page-1" aria-labelledby="page-title">
+      <div class="shell step-hero-grid">
+        <div>
+          <div class="step-label"><span aria-hidden="true">🧭</span> Step 1</div>
+          <h1 id="page-title">Find the Units</h1>
+          <p class="step-lede">Before you build assignments or map the semester, explore a few genuinely different ways the course could be organized.</p>
+          <p class="step-purpose"><strong>The goal:</strong> identify 3–5 substantial learning arcs that give the course a coherent shape without simply copying the order of a textbook or OER.</p>
+        </div>
+
+        <aside class="mini-path" aria-labelledby="mini-path-title">
+          <h2 id="mini-path-title">Where you are</h2>
+          <ol>
+            <li class="done"><span>0</span> Understand the Course</li>
+            <li class="current"><span>1</span> Find the Units</li>
+            <li><span>2</span> Design the Destinations</li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <section class="page-section" aria-labelledby="why-title">
+      <div class="shell narrow-shell">
+        <p class="eyebrow">Why this step matters</p>
+        <h2 id="why-title">Do not let the table of contents design the course for you.</h2>
+        <p>Textbooks and OER are organized for publication. A course should be organized around the learning students need to do. AI can help you see possibilities quickly, but you should choose the structure before asking it to build anything.</p>
+
+        <div class="three-beat" aria-label="Find the Units process">
+          <div><span aria-hidden="true">✨</span><strong>Explore</strong><p>Generate three meaningfully different structures.</p></div>
+          <div><span aria-hidden="true">☝️</span><strong>Choose</strong><p>Select the one that best fits the course you want to teach.</p></div>
+          <div><span aria-hidden="true">🛠️</span><strong>Build</strong><p>Develop only the structure you actually chose.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section soft-section" aria-labelledby="need-title">
+      <div class="shell narrow-shell">
+        <p class="eyebrow">Before you prompt</p>
+        <h2 id="need-title">What you’ll need</h2>
+        <ul class="check-list">
+          <li>Your Course Outline of Record (COR)</li>
+          <li>Your First-Time Faculty Course Guide or course-specific alignment rubric, if you made one</li>
+          <li>Your OER or textbook, if you already know what you will use</li>
+          <li>Any major scheduling constraints you already know</li>
+        </ul>
+        <div class="note-card">
+          <p><strong>No OER yet?</strong> That is fine. You can find the learning arcs from the COR first and match readings later.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section" aria-labelledby="prompt-one-title">
+      <div class="shell narrow-shell">
+        <div class="prompt-heading-row">
+          <div>
+            <p class="eyebrow">Prompt 1</p>
+            <h2 id="prompt-one-title">Explore three possible course structures</h2>
+            <p>This prompt intentionally stops before weekly planning, assignments, or activities.</p>
+          </div>
+          <span class="prompt-badge">Explore first</span>
+        </div>
+
+        <article class="prompt-card" aria-labelledby="prompt-one-label">
+          <div class="prompt-toolbar">
+            <h3 id="prompt-one-label">Copy-and-paste prompt</h3>
+            <button class="copy-button" type="button" data-copy-target="prompt-one" data-status-target="status-one">Copy prompt</button>
+          </div>
+          <div class="prompt-text" id="prompt-one">
+            <p>I am designing a college course using the attached Course Outline of Record and, when available, my course-specific alignment rubric and OER or textbook.</p>
+            <p>Do not build the course yet.</p>
+            <p>First, suggest <strong>3 meaningfully different ways</strong> to organize this course into <strong>3–5 substantial units or learning arcs</strong>.</p>
+            <p>For each option:</p>
+            <ul>
+              <li>give the overall organizing idea in one sentence;</li>
+              <li>list the proposed units with brief descriptions;</li>
+              <li>explain what makes this structure meaningfully different from the other options;</li>
+              <li>identify important COR expectations the structure helps foreground; and</li>
+              <li>briefly note any COR expectation that would need to be intentionally woven across more than one unit.</li>
+            </ul>
+            <p>Keep the three options concise enough that I can compare them easily.</p>
+            <p>Do not create weekly schedules, detailed assignments, activities, or lesson plans yet.</p>
+            <p>Do not simply reproduce the chapter order of the OER or textbook.</p>
+            <p>Do not recommend one option as the best choice. Stop after presenting the three options so I can choose.</p>
+          </div>
+          <p class="copy-status" id="status-one" role="status" aria-live="polite"></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="page-section choice-section" aria-labelledby="choose-title">
+      <div class="shell narrow-shell">
+        <div class="choice-callout">
+          <span class="choice-icon" aria-hidden="true">☝️</span>
+          <div>
+            <p class="eyebrow">Faculty decision point</p>
+            <h2 id="choose-title">Choose before you build</h2>
+            <p>Pick the structure that best fits how you want students to experience the course. You can choose one as-is, revise one, or combine the strongest parts of two options.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section" aria-labelledby="prompt-two-title">
+      <div class="shell narrow-shell">
+        <div class="prompt-heading-row">
+          <div>
+            <p class="eyebrow">Prompt 2</p>
+            <h2 id="prompt-two-title">Stress-test the option you chose</h2>
+            <p>Before expanding the structure, check whether it makes any important course requirement easy to lose.</p>
+          </div>
+          <span class="prompt-badge prompt-badge-gold">Check the choice</span>
+        </div>
+
+        <article class="prompt-card" aria-labelledby="prompt-two-label">
+          <div class="prompt-toolbar">
+            <h3 id="prompt-two-label">Copy-and-paste prompt</h3>
+            <button class="copy-button" type="button" data-copy-target="prompt-two" data-status-target="status-two">Copy prompt</button>
+          </div>
+          <div class="prompt-text" id="prompt-two">
+            <p>I want to develop Option [number or name].</p>
+            <p>Before expanding it, check the selected structure against the COR and course-specific alignment rubric, if provided.</p>
+            <p>Identify only:</p>
+            <ul>
+              <li>important COR expectations this structure could make easy to overlook;</li>
+              <li>learning that should probably be reinforced across multiple units rather than placed in only one; and</li>
+              <li>any unnecessary overlap between the proposed units.</li>
+            </ul>
+            <p>Keep this check concise. Do not redesign the structure unless there is a significant alignment problem. If you recommend a change, explain why and keep the change as small as possible.</p>
+          </div>
+          <p class="copy-status" id="status-two" role="status" aria-live="polite"></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="page-section soft-section" aria-labelledby="prompt-three-title">
+      <div class="shell narrow-shell">
+        <div class="prompt-heading-row">
+          <div>
+            <p class="eyebrow">Prompt 3</p>
+            <h2 id="prompt-three-title">Develop the chosen unit map</h2>
+            <p>Now you can make the structure more useful—without jumping ahead to the weekly calendar.</p>
+          </div>
+          <span class="prompt-badge prompt-badge-teal">Build the choice</span>
+        </div>
+
+        <article class="prompt-card" aria-labelledby="prompt-three-label">
+          <div class="prompt-toolbar">
+            <h3 id="prompt-three-label">Copy-and-paste prompt</h3>
+            <button class="copy-button" type="button" data-copy-target="prompt-three" data-status-target="status-three">Copy prompt</button>
+          </div>
+          <div class="prompt-text" id="prompt-three">
+            <p>Develop the selected structure into a clear 3–5 unit course map.</p>
+            <p>For each unit, provide:</p>
+            <ul>
+              <li>a concise unit title;</li>
+              <li>the purpose of the unit;</li>
+              <li>the major learning students should develop;</li>
+              <li>the major COR or rubric areas the unit supports; and</li>
+              <li>what students should be increasingly able to understand, analyze, create, perform, or demonstrate by the end.</li>
+            </ul>
+            <p>Also identify any important course expectation that should recur across several units.</p>
+            <p>Keep this at the unit-map level. Do not create a weekly schedule, detailed assignments, or learning activities yet.</p>
+          </div>
+          <p class="copy-status" id="status-three" role="status" aria-live="polite"></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="page-section" aria-labelledby="signs-title">
+      <div class="shell narrow-shell">
+        <p class="eyebrow">Quick quality check</p>
+        <h2 id="signs-title">Does the structure actually work?</h2>
+
+        <div class="signs-grid">
+          <article class="sign-card good-signs">
+            <h3><span aria-hidden="true">✓</span> Good signs</h3>
+            <ul>
+              <li>The units feel like meaningful learning arcs, not chapter groupings.</li>
+              <li>The sequence builds understanding or capability over time.</li>
+              <li>Important COR expectations have a clear home.</li>
+              <li>Some learning appropriately recurs across units.</li>
+              <li>You can explain why the course moves in this order.</li>
+            </ul>
+          </article>
+
+          <article class="sign-card watch-signs">
+            <h3><span aria-hidden="true">!</span> Watch for</h3>
+            <ul>
+              <li>The unit titles simply repeat textbook chapter names.</li>
+              <li>One unit becomes a catch-all for unrelated requirements.</li>
+              <li>A required COR area disappears from the structure.</li>
+              <li>The three AI options were basically the same structure with different labels.</li>
+              <li>AI jumped ahead and started designing assignments or weekly lessons.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="next-step-section" aria-labelledby="next-title">
+      <div class="shell narrow-shell next-step-card">
+        <div>
+          <p class="eyebrow">Next in the workflow</p>
+          <h2 id="next-title">Step 2: Design the Destinations</h2>
+          <p>Once the learning arcs are settled, decide what students might produce, perform, write, or demonstrate at the end of each one.</p>
+        </div>
+        <span class="button button-disabled" aria-disabled="true">Coming next</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <strong>Course Design Promptbook</strong>
+        <p>Design backward. Learn forward.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="index.html#method">The Method</a>
+        <a href="index.html#workflow">Workflow</a>
+        <a href="index.html#about">About</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const buttons = document.querySelectorAll('[data-copy-target]');
+
+      buttons.forEach((button) => {
+        button.addEventListener('click', async () => {
+          const target = document.getElementById(button.dataset.copyTarget);
+          const status = document.getElementById(button.dataset.statusTarget);
+          if (!target || !status) return;
+
+          const text = target.innerText.trim();
+          try {
+            await navigator.clipboard.writeText(text);
+            button.textContent = 'Copied';
+            status.textContent = 'Prompt copied to your clipboard.';
+            window.setTimeout(() => {
+              button.textContent = 'Copy prompt';
+              status.textContent = '';
+            }, 2200);
+          } catch (error) {
+            status.textContent = 'Copy did not work in this browser. Select the prompt text and copy it manually.';
+          }
+        });
+      });
+    }());
+  </script>
+</body>
+</html>
