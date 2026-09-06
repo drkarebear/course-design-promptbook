@@ -32,11 +32,11 @@
       try {
         await copyText(target.innerText.trim());
         button.textContent = 'Copied';
-        status.textContent = 'Prompt copied to your clipboard.';
+        status.textContent = 'Prompt copied to your clipboard. Replace anything in [brackets] before you send it.';
         window.setTimeout(() => {
           button.textContent = originalLabel;
           status.textContent = '';
-        }, 2200);
+        }, 4000);
       } catch (error) {
         status.textContent = 'Copy did not work in this browser. Select the prompt text and copy it manually.';
       }
